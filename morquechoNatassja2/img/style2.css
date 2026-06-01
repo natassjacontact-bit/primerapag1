@@ -1,0 +1,111 @@
+:root {
+    --header-bg: #775B89;      /* Chive Blossom – fondo elegante y profundo */
+    --header-text: #9693D6;    /* Bluebell Frost – títulos frescos y delicados */
+    --body-bg: #B5D4C8;        /* Donnegal – base suave y equilibrada */
+    --body-text: #2C2C2C;      /* Neutro oscuro (extra añadido) – legibilidad */
+    --accent-dark: #7872A5;    /* Benimidori – acento sofisticado y moderno */
+    --accent-light: #AEC891;   
+}
+
+
+body {
+    background-color:  var(--body-bg);
+    color: var(--body-text);
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+header {
+    background: var(--header-bg);
+    font-family: 'Sacramento', cursive;
+    color: var(--header-text);
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 3px solid var(--accent-light);
+}
+
+header .logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+header p {
+    color: var(--header-text);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+main section {
+    background-color: var(--body-bg); /* translúcido verde suave */
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border-left: 5px solid var(--accent-light);
+    box-shadow: 0 4px 10px rgba(32, 40, 8, 0.3);
+    overflow: hidden;
+}
+
+main section h2 {
+    color: var(--accent-dark);
+    margin-top: 0;
+    border-bottom: 1px solid var(--body-text);
+    padding-bottom: 10px;
+}
+
+main section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid var(--body-text);
+    border-radius: 4px;
+}
+
+
+footer ul {
+    list-style-type: none;
+    color: var(--accent-light);
+    padding-left: 20px;
+}
+
+footer ul li {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background:var(--header-bg);
+    color: var(--accent-light);
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
+    border-top: 1px solid var(--body-bg);
+    margin-top: 50px;
+}
+
+
+carouselExample{
+    max-width: 70%;
+    margin: 0 auto;
+}
